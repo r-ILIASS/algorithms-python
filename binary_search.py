@@ -1,5 +1,5 @@
 def binary_search(list, target):
-    # Keep track of list positions
+    # Keep track of list boundaries
     first = 0
     last = len(list) - 1
 
