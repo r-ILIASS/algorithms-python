@@ -4,9 +4,10 @@ def fizz_buzz(input):
         output += "Fizz"
     if input % 5 == 0:
         output += "Buzz"
-    else:
+    if not output:
         output = f"{input}"
     return output
 
 
-print(fizz_buzz(14))
+for i in range(0, 100):
+    print(fizz_buzz(i))
